@@ -1,0 +1,29 @@
+
+# List Python versions
+py --list-paths  # Windows
+
+# Create virtual enviroment (global)
+python -m venv my_enviroment  # Requires python installed
+
+# Create virtual enviroment (specific installation)
+/path_to_python_version -m venv my_enviroment
+
+
+# Install/Upgrade pip
+# Windows
+python -m ensurepip --upgrade
+#Linux
+sudo apt-get update && sudo apt-get install python3-pip
+
+
+# Activate virtual enviroment
+# Windows
+my_enviroment\Scripts\activate
+# Linux
+source my_enviroment/bin/activate
+
+# Deactivate virtual enviroment
+deactivate
+
+# python 3.11.5
+# pip install -r requirements.txt

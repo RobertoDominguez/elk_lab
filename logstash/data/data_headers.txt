@@ -1,0 +1,14 @@
+HeadHunter_train.csv
+
+review_id
+city
+position
+positive
+negative
+salary_rating
+team_rating
+managment_rating
+career_rating
+workplace_rating
+rest_recovery_rating
+target
